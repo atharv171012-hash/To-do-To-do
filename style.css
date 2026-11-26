@@ -1,12 +1,12 @@
 body{
     margin:0;
+    overflow:hidden;
     background:#111;
     color:white;
     font-family:Arial,sans-serif;
-    overflow:hidden;
 }
 
-#homeScreen{
+#menu{
     position:absolute;
     inset:0;
 
@@ -20,31 +20,29 @@ body{
 
 h1{
     font-size:60px;
-    margin-bottom:20px;
 }
 
 button{
+    font-size:24px;
     padding:15px 30px;
-    font-size:22px;
     cursor:pointer;
-    margin-bottom:30px;
 }
 
 #leaderboard{
     width:400px;
     background:#222;
-    padding:15px;
+    padding:20px;
     border-radius:10px;
+    margin-top:20px;
 }
 
-.leader-row{
+.row{
     display:flex;
     justify-content:space-between;
-    padding:8px;
-    border-bottom:1px solid #444;
+    padding:5px;
 }
 
-#gameCanvas{
+canvas{
     display:none;
-    background:#2f7a2f;
+    background:#1c7a1c;
 }
